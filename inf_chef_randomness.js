@@ -43,6 +43,21 @@ ingredients.steel_cube = {
     "group": "other",
     "keywords": "metal,iron,steel"
 };
+ingredients.money = {
+    "color": [ "#00ff00" ],
+    "shape": "square",
+    "adj": "paper",
+    "dishName": "paper",
+    "dishWeight": -35,
+    "meltPoint": 1456, //sandboxels reference
+    "meltInto": "molten_steel",
+    "broken": "steel_shavings",
+    "h": 210,
+    "s": 1,
+    "l": 64,
+    "group": "other",
+    "keywords": "paper,cash,money"
+};
 
 ingredients.steel_shavings = {
     "color": [
